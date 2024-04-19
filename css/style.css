@@ -505,7 +505,7 @@ grid-column: span 1;
 
 /*media quaris*/
 
-@media (max-width: 320px){
+@media (max-width: 584px){
     .nav-list{
         display: none; 
     } 
@@ -542,7 +542,7 @@ width: 70%;
 }
 }
 
-@media (min-width: 321px) {
+@media (min-width: 585px) {
     .label_hamburguesa {
         display: none;
 } 
