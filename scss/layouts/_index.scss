@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+    color: rgb(143, 63, 13);
+    padding: 20px;
+    font-family:cursive;
+    text-shadow: 2px 2px 4px;
+    font-size: 2.5rem;
+    animation: revealText 3s forwards;
+}
+
+.container img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-size: cover;
+    } 

@@ -1,0 +1,408 @@
+//base
+@import "base/vars";
+@import "base/utilities";
+
+//components
+@import "components/navbar";
+@import "components/footer";
+
+
+//layouts
+@import "layouts/index";
+@import "layouts/products";
+
+
+
+
+
+/*Index Title*/
+
+/**/
+
+/*bgIndexImage*/
+
+
+
+.hero-start{
+    background-image: url(../images/5405317.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/**/
+
+/*Products page*/
+
+.hero-p{
+    background-image: url(../images/6044158.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.title-product{
+    text-align: center;
+    color: rgb(146, 146, 230);
+    text-underline-offset: 0.3em;
+    text-decoration: underline;
+    text-shadow: 1px 1px 3px;
+    letter-spacing: 2px;
+}
+
+
+.main-product{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/**/
+
+/*Nav Decoration*/
+
+
+/**/
+
+/*nav despeglable*/
+
+
+
+
+/**/
+
+
+iframe{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.copy{
+position: relative;
+top: 40px;
+
+}
+
+
+.hero-social ul li {
+display: inline-block;
+
+}
+.hero-social{
+    text-align:center;
+    padding: 50px;
+    background-color: rgb(53, 52, 52);
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.hero-social a{
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    
+}
+.foot{
+    background-color: rgb(11, 4, 41);
+    padding: 50px;
+    text-align: center;
+    position:relative;
+    top: 40px;
+}
+
+.foot p{
+    color: white;
+}
+
+
+footer i{
+position: relative;
+left: 47%;
+top: 100px;
+font-size: 100px;
+color: green;
+}
+
+
+footer .contacto{
+position: relative;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+top: 80px;
+}
+footer a {
+    display: block; 
+    margin: 0 auto; 
+} 
+
+/**/
+
+/*Ofertas*/
+.ofertas-body{
+    background-image: url(../images/5925788.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: fixed;
+}
+
+.contain-ofertas{
+    position: relative;
+}
+
+.offert-icon{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-family:serif;
+    letter-spacing: 1px;
+}
+
+.main-ofertas h1{
+text-align: center;
+padding: 50px;
+color: rgb(255, 255, 255);
+text-underline-offset: 0.3em;
+text-decoration: underline;
+text-shadow: 2px 2px 4px;
+letter-spacing: 15px;
+}
+.product-ofertas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    overflow: hidden;
+}
+
+.contain-ofertas img{
+width: 100%;
+height: 400px;
+margin-left: 10px;
+}
+
+.content-ofertas p{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+/**/
+
+/*Contact*/
+.contact-body{
+    background-image: url(../images/rm251-mind-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.contact input{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    width: 180%;
+    border: none;
+}
+
+.contact textarea{
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 140%;
+    height: 70px;
+    letter-spacing: 2px;
+}
+
+.contact h2{
+    font-size: 16px;
+    color: white;
+}
+
+.contact button{
+    padding: 10px;
+    background-color: rgb(14, 14, 236);
+    color: white;
+    border-radius: 10px;
+    margin-right: 12%;
+    margin-bottom: 30px;
+    font-family: serif;
+    border: none;
+}
+/**/
+
+/*Questions Page*/
+.q-body{
+    background-image: url(../images/3513217.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.questions h1{
+    text-align: center;
+    background-color: rgba(3, 3, 30, 0.309);
+    padding: 50px;
+    text-decoration: underline;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.hero-question{
+    text-align: center;
+}
+
+.hero-question h2{
+    background-color: rgba(2, 2, 27, 0.285);
+    padding: 10px;
+    border-radius: 20px;
+    transition: color 0.3s ease;
+}
+
+
+.hero-answer{
+    background-color: rgba(255, 255, 255, 0.573);
+    color: black;
+    border-radius: 10px;
+}
+
+.hero-question h2,
+.hero-answer {
+    margin: 0 auto; 
+    width: 80%;
+}
+
+.questions h2:hover{
+    color: rgb(84, 84, 235);
+    cursor: pointer;
+}
+
+.accordion m-5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+.des-content{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr ));
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.des-img img {
+    width: 100%;
+    border: 2px solid blue;
+    box-shadow: 0 4px 6px blue;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+.des-img img:hover{
+    transform: scale(0.9);
+}
+
+.des-img:nth-child(4){
+    grid-column: span 2;
+}
+
+.des-img:nth-child(6){
+grid-column: span 1;
+}
+
+/**/
+
+.carousel-item {
+    margin-top: 20px;
+}
+
+.p-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:underline;
+    text-underline-offset: 0.5em;
+}
+
+.carousel-container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/*animation*/
+@keyframes revealText {
+    from{
+        letter-spacing: 1em;
+    }
+
+    to{
+        color: rgb(255, 255, 255);
+        letter-spacing: normal;
+    }
+}
+
+.carousel-item {
+    transition: transform 0.5s ease;
+}
+
+/*media quaris*/
+@media (max-width: 584px) {
+    .nav-list {
+    display: none;
+    }
+    .hero-section img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    }
+    .hero-social ul {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .menu_hamburguesa:checked ~ .menu-desplegable {
+    display: block;
+    }
+    .contact h2 {
+    text-align: center;
+    }
+    .des-content {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .nav .nav-list{
+    display: none;
+    }
+}
+@media (min-width: 585px) {
+    .label_hamburguesa {
+    display: none;
+    }
+}
