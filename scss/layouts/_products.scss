@@ -26,7 +26,25 @@
         color: white;
         line-height: none;
     }
+
 }
+
+.main-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title-product{
+        text-align: center;
+        color: rgb(146, 146, 230);
+        text-underline-offset: 0.3em;
+        text-decoration: underline;
+        text-shadow: 1px 1px 3px;
+        letter-spacing: 2px;
+    }
+    }
+
+
 
 .buttonicon{
     padding: 10px;

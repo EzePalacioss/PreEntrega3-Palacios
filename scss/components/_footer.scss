@@ -1,0 +1,43 @@
+
+
+    .foot{
+        background-color: rgb(11, 4, 41);
+        padding: 50px;
+        text-align: center;
+        position:relative;
+        top: 40px;
+
+        p{
+            color: white;
+        }
+
+        footer i{
+            position: relative;
+            left: 47%;
+            top: 100px;
+            font-size: 100px;
+            color: green;
+            }
+
+            footer .contacto{
+                position: relative;
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                top: 80px;
+                }
+
+                footer a {
+                    display: block; 
+                    margin: 0 auto; 
+                } 
+    }
+
+
+
+
+.copy{
+    position: relative;
+    top: 40px;
+    
+    }

@@ -1,0 +1,51 @@
+.contain-ofertas{
+    position: relative;
+}
+
+
+.offert-icon{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-family:serif;
+    letter-spacing: 1px;
+}
+
+.main-ofertas{
+
+    h1{
+        text-align: center;
+        padding: 50px;
+        color: rgb(255, 255, 255);
+        text-underline-offset: 0.3em;
+        text-decoration: underline;
+        text-shadow: 2px 2px 4px;
+        letter-spacing: 15px;
+        }
+
+        .product-ofertas{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            overflow: hidden;
+        
+        } 
+
+            img{
+            width: 100%;
+            height: 400px;
+            margin-left: 10px;
+            } 
+
+            p{
+                color: white;
+                font-family:'Times New Roman', Times, serif;
+                margin-left: 10px;
+            }
+}
+
+
+

@@ -1,0 +1,44 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 100px;
+
+    input{
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+        width: 180%;
+        border: none;
+    }
+
+    textarea{
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 25px;
+        width: 140%;
+        height: 70px;
+        letter-spacing: 2px;
+    }
+
+    h2{
+        font-size: 16px;
+        color: white;
+    }
+
+    button{
+        padding: 10px;
+        background-color: rgb(14, 14, 236);
+        color: white;
+        border-radius: 10px;
+        margin-right: 12%;
+        margin-bottom: 30px;
+        font-family: serif;
+        border: none;
+    }
+}
