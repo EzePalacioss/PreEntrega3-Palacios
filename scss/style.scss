@@ -15,81 +15,6 @@
 @import "layouts/contact";
 
 
-
-
-/*bgIndexImage*/
-.hero-start{
-    background-image: url(../images/5405317.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-/**/
-
-/*Products page*/
-
-.hero-p{
-    background-image: url(../images/6044158.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/**/
-
-/*Ofertas*/
-.ofertas-body{
-    background-image: url(../images/5925788.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-background-attachment: fixed;
-}
-
-/**/
-
-/*Contact*/
-.contact-body{
-    background-image: url(../images/rm251-mind-01.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/**/
-
-/*Questions Page*/
-.q-body{
-    background-image: url(../images/3513217.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.p-font{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration:underline;
-    text-underline-offset: 0.5em;
-}
-
-
-
-
-/*animation*/
-@keyframes revealText {
-    from{
-        letter-spacing: 1em;
-    }
-
-    to{
-        color: rgb(255, 255, 255);
-        letter-spacing: normal;
-    }
-}
-
-.carousel-item {
-    transition: transform 0.5s ease;
-}
-
 /*media quaris*/
 @media (max-width: 427px) {
     .nav-list {
@@ -122,6 +47,13 @@ background-attachment: fixed;
         object-fit: cover;
     }
 
+    .product-ofertas img{
+width: 100%;
+height: 500px;
+    }
+    
+
+    
 
 }
 @media (min-width: 428px) {

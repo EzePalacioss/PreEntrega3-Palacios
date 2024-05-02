@@ -1,12 +1,15 @@
-
+.hero-p{
+    background-image: url(../images/6044158.jpg);
+    @extend .background;
+}
 .products{
     display: flex;
     flex-wrap: wrap;
 
     .product{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
+        flex-wrap: wrap;
         width: 322px;
         padding: 10px;
         position: relative;

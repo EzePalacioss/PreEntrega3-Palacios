@@ -1,3 +1,24 @@
+.p-font {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+}
+
+@keyframes revealText {
+  from {
+    letter-spacing: 1em;
+  }
+  to {
+    color: rgb(255, 255, 255);
+    letter-spacing: normal;
+  }
+}
+.background, .contact-body, .q-body, .ofertas-body, .hero-p, .hero-start {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .sticky {
   position: sticky;
   top: 0;
@@ -66,8 +87,7 @@
   border: 2px solid black;
   border-radius: 5px 5px 5px;
   margin-top: 10px;
-  padding-left: 10px;
-  padding-right: 15px;
+  padding: 0 15px 0 10px;
 }
 .menu-desplegable .nav-item_desplegable {
   display: flex;
@@ -132,6 +152,10 @@
   top: 40px;
 }
 
+.hero-start {
+  background-image: url(../images/5405317.jpg);
+}
+
 .title {
   text-align: center;
   color: rgb(143, 63, 13);
@@ -179,6 +203,11 @@ iframe {
 }
 .carousel-container .carousel-item {
   margin-top: 20px;
+  transition: transform 0.5s ease;
+}
+
+.hero-p {
+  background-image: url(../images/6044158.jpg);
 }
 
 .products {
@@ -187,8 +216,8 @@ iframe {
 }
 .products .product {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 322px;
   padding: 10px;
   position: relative;
@@ -228,6 +257,10 @@ iframe {
   cursor: pointer;
 }
 
+.ofertas-body {
+  background-image: url(../images/5925788.jpg);
+}
+
 .contain-ofertas {
   position: relative;
 }
@@ -257,6 +290,7 @@ iframe {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   overflow: hidden;
+  margin: 0 10px 0 0;
 }
 .main-ofertas img {
   width: 100%;
@@ -267,6 +301,10 @@ iframe {
   color: white;
   font-family: "Times New Roman", Times, serif;
   margin-left: 10px;
+}
+
+.q-body {
+  background-image: url(../images/3513217.jpg);
 }
 
 .questions {
@@ -340,6 +378,10 @@ h3 {
   grid-column: span 1;
 }
 
+.contact-body {
+  background-image: url(../images/rm251-mind-01.jpg);
+}
+
 .contact {
   display: flex;
   align-items: center;
@@ -373,7 +415,7 @@ h3 {
   color: white;
   text-align: center;
   font-size: 1.5rem;
-  background-color: rgba(4, 4, 34, 0.346);
+  background-color: rgba(4, 4, 34, 0.522);
   padding: 50px;
   width: 100%;
 }
@@ -384,73 +426,10 @@ h3 {
 .contact button {
   width: 100px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 255, 0.493);
+  background-color: rgba(0, 0, 255, 0.626);
   color: white;
   border: none;
   padding: 10px;
-}
-
-/*bgIndexImage*/
-.hero-start {
-  background-image: url(../images/5405317.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-/**/
-/*Products page*/
-.hero-p {
-  background-image: url(../images/6044158.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-/**/
-/*Ofertas*/
-.ofertas-body {
-  background-image: url(../images/5925788.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-/**/
-/*Contact*/
-.contact-body {
-  background-image: url(../images/rm251-mind-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-/**/
-/*Questions Page*/
-.q-body {
-  background-image: url(../images/3513217.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.p-font {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-decoration: underline;
-  text-underline-offset: 0.5em;
-}
-
-/*animation*/
-@keyframes revealText {
-  from {
-    letter-spacing: 1em;
-  }
-  to {
-    color: rgb(255, 255, 255);
-    letter-spacing: normal;
-  }
-}
-.carousel-item {
-  transition: transform 0.5s ease;
 }
 
 /*media quaris*/
@@ -478,6 +457,10 @@ h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .product-ofertas img {
+    width: 100%;
+    height: 500px;
   }
 }
 @media (min-width: 428px) {
