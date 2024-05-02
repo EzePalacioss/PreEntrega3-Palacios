@@ -390,7 +390,7 @@ h3 {
 .contact input {
   font-size: 100%;
   padding: 0.7em;
-  background: rgba(2, 2, 28, 0.438);
+  background: rgba(2, 2, 28, 0.538);
   border-radius: 10px;
   border: 2px solid #e8e8e8;
   color: white;
@@ -408,7 +408,7 @@ h3 {
   color: #e8e8e8;
   margin-top: 10px;
   border: 2px solid #e8e8e8;
-  background: rgba(2, 2, 28, 0.438);
+  background: rgba(2, 2, 28, 0.538);
   border-radius: 10px;
   width: 100%;
 }
@@ -416,7 +416,7 @@ h3 {
   color: white;
   text-align: center;
   font-size: 1.5rem;
-  background-color: rgba(4, 4, 34, 0.522);
+  background-color: rgba(2, 2, 28, 0.538);
   padding: 50px;
   width: 100%;
 }
@@ -427,13 +427,12 @@ h3 {
 .contact button {
   width: 100px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 255, 0.626);
+  background-color: #004AAD;
   color: white;
   border: none;
   padding: 10px;
 }
 
-/*media quaris*/
 @media (max-width: 427px) {
   .nav-list {
     display: none;
