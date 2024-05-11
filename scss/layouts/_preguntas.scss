@@ -54,8 +54,18 @@ h3{
     color: white;
 }
 
-.accordion m-5{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.accordion-item {
+    border: none; 
+    background-color: transparent; 
+
+    .accordion-button {
+        color: white;
+        background-color:rgba(4, 4, 60, 0.177);
+    }
+
+    .accordion-body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 }
 
 
@@ -87,5 +97,4 @@ h3{
     }
     
     }
-
 
